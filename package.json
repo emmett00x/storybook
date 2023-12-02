@@ -9,7 +9,8 @@
     "start:storybook": "npx http-server ./storybook-static",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy:storybook": "npx chromatic --project-token=chpt_46bf038730c2bea"
   },
   "dependencies": {
     "next": "14.0.3",
@@ -28,11 +29,14 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "chromatic": "^10.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "eslint-plugin-storybook": "^0.6.15",
     "http-server": "^14.1.1",
     "storybook": "^7.6.3",
     "typescript": "^5"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook@0.1.0"
 }
